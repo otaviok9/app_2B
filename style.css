@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 390px;
+    height: 80px;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+header nav a{
+   text-align: center;
+   color: #0095ff;
+   font-size: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-decoration: none;
+}
+
+a:hover{
+    background-color: #0e1852;
+    color: #35688d;
+    transition: 2s;
+    border-radius: 8px;
+}
+
+body{
+    background-color: #9A9A9A;
+    width: 390px;
+    height: 844px;
+}
+main{
+    width: 390px;
+    height: 684px;
+    background-color: #9A9A9A;
+}
+
+main p{
+    text-align: justify;
+    text-align: center;
+    margin-top: 72px;
+    background-color: #9A9A9A;
+    font-size: 20px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+main .wire{
+    margin-top: 32px;
+    height: 453px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main .notebook{
+    margin-top: 32px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main .wire img{
+    width: 180px;
+    height: 390px;
+}
+
+main .notebook img{
+    width: 180px;
+    height: 180px;
+}
+
+footer{
+    width: 390px;
+    height: 80px;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #0095ff;
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
