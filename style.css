@@ -25,7 +25,7 @@ header nav a{
 a:hover{
     background-color: #0e1852;
     color: #35688d;
-    transition: 2s;
+    transition: 10s;
     border-radius: 8px;
 }
 
@@ -93,4 +93,10 @@ footer{
 footer p{
     text-align: center;
     font-size: 12px;
+}
+
+.rd-sociais img{
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
 }
